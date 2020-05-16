@@ -1,0 +1,12 @@
+[Service]
+WorkingDirectory=/home/pirate/update
+ExecStart=/home/pirate/update/update_pi.sh
+Restart=on-failure
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=update_pi
+User=root
+Group=root
+Environment=NODE_ENV=production
+[Install]
+WantedBy=multi-user.target
