@@ -8,5 +8,5 @@ sudo apt-get update
 echo "upgrading packages..."
 sudo apt-get upgrade -y
 ts=$(date +"%Y-%m-%d %T")
-sudo echo "Last updated at: $ts" > /home/pirate/update_pi/last_update.txt
+sudo echo "Last updated at: $ts" > /home/pi/update_pi/last_update.txt
 echo "fin.."
