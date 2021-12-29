@@ -1,6 +1,6 @@
 [Service]
-WorkingDirectory=/home/pirate/update_pi
-ExecStart=/home/pirate/update_pi/update_pi.sh
+WorkingDirectory=/home/pi/update_pi
+ExecStart=/home/pi/update_pi/update_pi.sh
 Restart=on-failure
 StandardOutput=syslog
 StandardError=syslog
