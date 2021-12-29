@@ -2,6 +2,7 @@
 Script to Update and Upgrade Raspberry Pi on Boot
 
 #### Info
+- (update) give the **install_update_pi.sh** script execution permissions and run with sudo to install the update_pi service
 - change **update_pi.service.txt** file to **update_pi.service** and use it to create service to run at boot using systemd
 
 #### Services in Linux FYI
