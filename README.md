@@ -11,6 +11,7 @@ Script to Update and Upgrade Raspberry Pi on Boot
 - `sudo systemctl enable <name>` to enable the service
 - start the service without rebooting with `sudo systemctl start <name>`
 - can stop with `sudo systemctl stop <name>`
+- can disable with `sudo systemctl disable <name>`
 - Restart=always will continue to start the program after it exits; use on-failure to restart it only on failure
 
 
