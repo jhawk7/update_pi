@@ -1,7 +1,6 @@
 #!/bin/sh
 
 # script to update raspberry pi on startup
-# runs as startup via systemd
 
 echo "updating packages..."
 sudo apt-get update
