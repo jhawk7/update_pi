@@ -1,11 +1,11 @@
 #!/bin/sh
 
-# script to update raspberry pi on startup
+# script to update raspberry pi 
 
 echo "updating packages..."
-sudo apt-get update
+sudo apt update
 echo "upgrading packages..."
-sudo apt-get upgrade -y
+sudo apt full-upgrade -y
 ts=$(date +"%Y-%m-%d %T")
 sudo echo "Last updated at: $ts" > /home/pi/update_pi/last_update.txt
 echo "fin.."
